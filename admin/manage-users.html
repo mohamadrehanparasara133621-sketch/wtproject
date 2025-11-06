@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Admin • Manage Users</title>
+  <link rel="stylesheet" href="../assets/css/style.css"/>
+</head>
+<body>
+  <div class="navbar">
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo">Ad</div>
+      <strong>Zomato (Admin)</strong>
+    </div>
+    <div class="nav-links">
+      <a href="../admin/dashboard.html">Dashboard</a>
+      <a href="../admin/manage-restaurants.html">Restaurants</a>
+      <a href="../admin/manage-menu.html">Menu</a>
+      <a href="../admin/manage-orders.html">Orders</a>
+      <a href="../admin/manage-users.html">Users</a>
+    </div>
+  </div>
+</div>
+  <div class="container">
+    
+  <h1 class="page-title">Manage Users</h1>
+  <div class="grid cols-2">
+    <div class="card"><div class="pad">
+      <strong>Add User</strong>
+      <div class="row"><input class="input" placeholder="Name" style="flex:1"></div>
+      <div class="row"><input class="input" placeholder="Email" style="flex:1"></div>
+      <div class="row"><button class="btn primary">Create</button></div>
+    </div></div>
+    <div class="card"><div class="pad">
+      <strong>Users</strong>
+      <table class="table">
+        <thead><tr><th>Name</th><th>Email</th><th>Role</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td>Guest</td><td>guest@example.com</td><td>User</td><td><button class="btn">Edit</button></td></tr>
+          <tr><td>Admin</td><td>admin@example.com</td><td>Admin</td><td><button class="btn">Edit</button></td></tr>
+        </tbody>
+      </table>
+    </div></div>
+  </div>
+
+  </div>
+  <div class="footer">© Admin Project • Built with HTML, CSS & JS</div>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

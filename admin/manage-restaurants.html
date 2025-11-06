@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Admin • Manage Restaurants</title>
+  <link rel="stylesheet" href="../assets/css/style.css"/>
+</head>
+<body>
+  <div class="navbar">
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo">Ad</div>
+      <strong>Zomato (Admin)</strong>
+    </div>
+    <div class="nav-links">
+      <a href="../admin/dashboard.html">Dashboard</a>
+      <a href="../admin/manage-restaurants.html">Restaurants</a>
+      <a href="../admin/manage-menu.html">Menu</a>
+      <a href="../admin/manage-orders.html">Orders</a>
+      <a href="../admin/manage-users.html">Users</a>
+    </div>
+  </div>
+</div>
+  <div class="container">
+    
+  <h1 class="page-title">Manage Restaurants</h1>
+  <div class="grid cols-2">
+    <div class="card"><div class="pad">
+      <strong>Add Restaurant</strong>
+      <div class="row"><input class="input" placeholder="Name" style="flex:1"></div>
+      <div class="row"><input class="input" placeholder="Cuisine" style="flex:1"></div>
+      <div class="row"><input class="input" placeholder="Area" style="flex:1"></div>
+      <div class="row"><button class="btn primary">Save</button></div>
+    </div></div>
+    <div class="card"><div class="pad">
+      <strong>Existing</strong>
+      <table class="table">
+        <thead><tr><th>Name</th><th>Cuisine</th><th>Area</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td>Spice Route</td><td>North Indian</td><td>HSR</td><td><button class="btn">Edit</button></td></tr>
+          <tr><td>Sushi Zen</td><td>Japanese</td><td>Indiranagar</td><td><button class="btn">Edit</button></td></tr>
+        </tbody>
+      </table>
+    </div></div>
+  </div>
+
+  </div>
+  <div class="footer">© Admin Project • Built with HTML, CSS & JS</div>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>User • Cart</title>
+  <link rel="stylesheet" href="../assets/css/style.css"/>
+</head>
+<body>
+  <div class="navbar">
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo">Zo</div>
+      <strong>Zomato (User)</strong>
+    </div>
+    <div class="nav-links">
+      <a href="../user/index.html">Home</a>
+      <a href="../user/restaurants.html">Restaurants</a>
+      <a href="../user/cart.html">Cart (<span data-cart-count>0</span>)</a>
+      <a href="../user/profile.html">Profile</a>
+    </div>
+  </div>
+</div>
+  <div class="container">
+    
+  <h1 class="page-title">Your Cart</h1>
+  <div class="sub">Review items and proceed to checkout.</div>
+  <table class="table">
+    <thead><tr><th>Item</th><th>Price</th><th>Qty</th><th>Total</th></tr></thead>
+    <tbody id="cart-body"></tbody>
+  </table>
+  <div class="row" style="justify-content:space-between;margin-top:12px">
+    <div class="sub">Grand Total: <strong data-cart-total>₹0</strong></div>
+    <div class="row">
+      <button id="clear-cart" class="btn">Clear Cart</button>
+      <button class="btn primary">Checkout</button>
+    </div>
+  </div>
+
+  </div>
+  <div class="footer">© User Project • Built with HTML, CSS & JS</div>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

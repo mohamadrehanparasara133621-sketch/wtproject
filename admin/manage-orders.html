@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Admin • Manage Orders</title>
+  <link rel="stylesheet" href="../assets/css/style.css"/>
+</head>
+<body>
+  <div class="navbar">
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo">Ad</div>
+      <strong>Zomato (Admin)</strong>
+    </div>
+    <div class="nav-links">
+      <a href="../admin/dashboard.html">Dashboard</a>
+      <a href="../admin/manage-restaurants.html">Restaurants</a>
+      <a href="../admin/manage-menu.html">Menu</a>
+      <a href="../admin/manage-orders.html">Orders</a>
+      <a href="../admin/manage-users.html">Users</a>
+    </div>
+  </div>
+</div>
+  <div class="container">
+    
+  <h1 class="page-title">Manage Orders</h1>
+  <div class="alert">Demo project: orders are not persisted to a backend.</div>
+  <table class="table" style="margin-top:12px">
+    <thead><tr><th>Order #</th><th>User</th><th>Total</th><th>Status</th><th>Action</th></tr></thead>
+    <tbody>
+      <tr><td>#1001</td><td>Guest</td><td>₹455</td><td><span class="badge">Pending</span></td><td><button class="btn">Mark Done</button></td></tr>
+      <tr><td>#1002</td><td>Guest</td><td>₹220</td><td><span class="badge">Preparing</span></td><td><button class="btn">Mark Done</button></td></tr>
+    </tbody>
+  </table>
+
+  </div>
+  <div class="footer">© Admin Project • Built with HTML, CSS & JS</div>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>
